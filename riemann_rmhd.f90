@@ -2146,7 +2146,7 @@ subroutine xi(state,switchLR,Vs,allwaves)
      if ((Vs<leftAlfven).and.(abs(Vs-leftAlfven)>1.0e-10)) then
         print *,'xi=',Vs
         print *,'Left Alfven=',leftAlfven
-        stop'XI: xi<leftAlfven'
+        stop 'XI: xi<leftAlfven'
      end if
 
      if (Vs>vx) then
