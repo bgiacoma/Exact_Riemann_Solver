@@ -1,0 +1,16 @@
+Bx                   = 0.0D0
+gamma                = 1.3333
+rho     (LEFT STATE) = 100.0
+Pgas    (LEFT STATE) = 1.0
+vx      (LEFT STATE) = 0.995
+vy      (LEFT STATE) = 0.0
+vz      (LEFT STATE) = 0.0
+By      (LEFT STATE) = 223.6
+Bz      (LEFT STATE) = 0.0
+rho     (RIGHT STATE)= 1.0
+Pgas    (RIGHT STATE)= 0.01
+vx      (RIGHT STATE)= 0.0
+vy      (RIGHT STATE)= 0.0
+vz      (RIGHT STATE)= 0.0
+By      (RIGHT STATE)= 0.0
+Bz      (RIGHT STATE)= 0.5
