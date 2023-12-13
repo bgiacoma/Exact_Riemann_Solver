@@ -18,9 +18,6 @@ $(PROG): $(OBJS)
 clean:
 	rm -f $(OBJS) $(OBJ_TEST) *.kmo *.mod
 
-flush:
-	rm -f $(PROG) $(OBJS) $(OBJ_TEST) $(OBJ_TESTV) *.kmo *.mod
-
 data:	
 	rm -f *.dat *.sol
 
@@ -31,5 +28,8 @@ tar:
 
 .f90.o:
 	$(F90) $(F90FLAGS) -c $<
+
+run-test:
+        printf "13\n1\n-2\n2\n1.5\n100\n1.0e-7\n1\n" | ./riemann_rmhd
 
 # DO NOT DELETE
